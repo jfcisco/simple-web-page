@@ -1,0 +1,70 @@
+:root {
+    box-sizing: border-box;
+}
+
+body, h1, h2 {
+    margin: 0;
+}
+
+.hero-image-background {
+    min-height: 100vh;
+    background-image: url('/images/katharine-crompton-ijyiUzYh1Gg-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.intro-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+}
+
+.intro-content {
+    max-width: 700px;
+}
+
+.intro-content > h1 {
+    background-color: rgba(184, 184, 184, 0.9);
+    padding: 1rem;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.intro-content > p {
+    padding: 1.5rem;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.intro-scroll {
+    font-style: italic;
+    text-align: center;
+    padding: 0.1rem;
+
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.great-clans {
+    background-image: url("/images/map-japan-old.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+.great-clans-header {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 2.5rem 0;
+}
+
+.great-clans-select {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.hidden {
+    display: none;
+}
