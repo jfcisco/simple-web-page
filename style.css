@@ -1,6 +1,6 @@
 :root {
     box-sizing: border-box;
-    --content-bg-color: rgba(255, 255, 255, 0.9);
+    --content-bg-color: rgba(224, 201, 166, 0.9);
     --font-stack: Arial, Helvetica, sans-serif;
 }
 
@@ -27,6 +27,10 @@ body, h1, h2 {
     flex-flow: column nowrap;
 }
 
+.intro-heading {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 .intro-content {
     max-width: 900px;
 }
@@ -50,7 +54,7 @@ body, h1, h2 {
     padding: 0.1rem;
 
     border-radius: 5px;
-    background: rgba(255, 255, 255, 0.85);
+    background: var(--content-bg-color);
     color: rgb(131, 131, 131)
 }
 
@@ -68,6 +72,7 @@ body, h1, h2 {
     margin: 0 auto 1.5rem;
     padding: 1rem 2rem;
     background-color: var(--content-bg-color);
+    border-radius: 5px;
 }
 
 .great-clans-select {
@@ -77,10 +82,27 @@ body, h1, h2 {
 }
 
 .clan-info {
-    max-width: 960px;
+    max-width: 700px;
     margin: auto;
-    background-color: rgba(255, 255, 255, 1.0);;
+    background-color: rgb(255, 255, 255);
     padding: 1.5rem;
+}
+
+.clan-info > dl {
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.clan-info dt {
+    font-weight: bold;
+    flex: 0 1 50%;
+}
+
+.clan-info dd  {
+    margin: 0;
+    flex: 0 1 50%;
 }
 
 .clan-info > h3 {
@@ -91,6 +113,7 @@ body, h1, h2 {
 
 .clan-emblem {
     text-align: center;
+    font-size: 0.75rem;
 }
 
 .clan-emblem-img {
@@ -102,5 +125,15 @@ body, h1, h2 {
 }
 
 footer {
-    margin: 0 2rem;
+    padding: 1.5rem 2rem;
+    background-color: var(--content-bg-color);
+}
+
+.footer-content {
+    max-width: 700px;
+    margin: auto;
+}
+
+footer > h3, footer > ul {
+    margin: 0;
 }
