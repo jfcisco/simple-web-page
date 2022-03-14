@@ -84,7 +84,7 @@ body, h1, h2 {
 .clan-info {
     max-width: 700px;
     margin: auto;
-    background-color: rgb(255, 255, 255);
+    background-color: var(--content-bg-color);
     padding: 1.5rem;
 }
 
@@ -114,6 +114,12 @@ body, h1, h2 {
 .clan-emblem {
     text-align: center;
     font-size: 0.75rem;
+    max-width: 200px;
+    margin: 1rem auto;
+    background-color: rgb(255, 255, 255);
+    padding: 1rem 0;
+    border-radius: 5%;
+    box-shadow: inset 1px 1px 4px rgba(0, 0, 0, 0.198) ;
 }
 
 .clan-emblem-img {
