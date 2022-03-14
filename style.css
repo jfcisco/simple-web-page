@@ -15,8 +15,8 @@ body, h1, h2 {
 
 .hero-image-background {
     min-height: 100vh;
-    background-image: url('/images/katharine-crompton-ijyiUzYh1Gg-unsplash.jpg');
     background-size: cover;
+    background-image: url("/images/map-japan-old.jpeg");
     background-position: center;
 }
 
@@ -59,7 +59,7 @@ body, h1, h2 {
 }
 
 .great-clans {
-    background-image: url("/images/map-japan-old.jpeg");
+    background-image: url('/images/katharine-crompton-ijyiUzYh1Gg-unsplash.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
