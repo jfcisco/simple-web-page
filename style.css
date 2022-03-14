@@ -81,6 +81,21 @@ body, h1, h2 {
     justify-content: space-evenly;
 }
 
+.great-clans-select button {
+    background-color: rgb(24, 24, 24);
+    color: white;
+    border: none;
+    padding: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+
+    transition: background-color 100ms;
+}
+
+.great-clans-select button:hover {
+    background-color: rgb(85, 85, 85);
+}
+
 .clan-info {
     max-width: 700px;
     margin: auto;
@@ -131,7 +146,7 @@ body, h1, h2 {
 }
 
 footer {
-    padding: 1.5rem 2rem;
+    padding: 1rem 2rem;
     background-color: var(--content-bg-color);
 }
 
